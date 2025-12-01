@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10c0
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -1676,9 +1676,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -3411,13 +3411,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#optional!builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=d73830"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 062c1cee1990e6b9419ce8a55162b8dc917eb87f807e4de0327dbc1c2fa4e5f61bc0dd4e034d38ff541d1ed0479b53bcee8e4de3a4075c51a1724eb6216cb6f5
+  checksum: 8/07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
   languageName: node
   linkType: hard
 
@@ -3499,10 +3499,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validator@npm:^13.11.0":
-  version: 13.11.0
-  resolution: "validator@npm:13.11.0"
-  checksum: 0107da3add5a4ebc6391dac103c55f6d8ed055bbcc29a4c9cbf89eacfc39ba102a5618c470bdc33c6487d30847771a892134a8c791f06ef0962dd4b7a60ae0f5
+"validator@npm:^13.15.22":
+  version: 13.15.23
+  resolution: "validator@npm:13.15.23"
+  checksum: 8/7ac57d4c56de04cd831c997f2e06ded4862a4cf8541ac982c7d2a6a6aa10b833af20b64f1b0c6a92bae21698db44b1044f32eb2f2ce50823138ab95d4c4886e9
   languageName: node
   linkType: hard
 
@@ -3517,31 +3517,31 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vcard-generator-backend@workspace:."
   dependencies:
-    "@sendgrid/mail": "npm:^7.7.0"
-    "@types/bcrypt": "npm:^5.0.1"
-    "@types/express": "npm:^4.17.20"
-    "@types/express-session": "npm:^1.17.5"
-    "@types/mocha": "npm:^10.0.3"
-    "@types/node": "npm:^20.8.9"
-    "@types/validator": "npm:^13.11.5"
-    "@typescript-eslint/eslint-plugin": "npm:^6.9.0"
-    "@typescript-eslint/parser": "npm:^6.9.0"
-    bcrypt: "npm:^5.1.1"
-    connect-redis: "npm:^7.1.0"
-    dotenv: "npm:^16.3.1"
-    eslint: "npm:^8.52.0"
-    express: "npm:^4.18.2"
-    express-session: "npm:^1.17.3"
-    helmet: "npm:^7.0.0"
-    jose: "npm:^5.0.1"
-    mocha: "npm:^10.2.0"
-    mongodb: "npm:^6.2.0"
-    nodemon: "npm:^3.0.1"
-    rate-limiter-flexible: "npm:^3.0.2"
-    redis: "npm:^4.6.10"
-    ts-node: "npm:^10.9.1"
-    typescript: "npm:^5.2.2"
-    validator: "npm:^13.11.0"
+    "@sendgrid/mail": ^7.7.0
+    "@types/bcrypt": ^5.0.1
+    "@types/express": ^4.17.20
+    "@types/express-session": ^1.17.5
+    "@types/mocha": ^10.0.3
+    "@types/node": ^20.8.9
+    "@types/validator": ^13.11.5
+    "@typescript-eslint/eslint-plugin": ^6.9.0
+    "@typescript-eslint/parser": ^6.9.0
+    bcrypt: ^5.1.1
+    connect-redis: ^7.1.0
+    dotenv: ^16.3.1
+    eslint: ^8.52.0
+    express: ^4.18.2
+    express-session: ^1.17.3
+    helmet: ^7.0.0
+    jose: ^5.0.1
+    mocha: ^10.2.0
+    mongodb: ^6.2.0
+    nodemon: ^3.0.1
+    rate-limiter-flexible: ^3.0.2
+    redis: ^4.6.10
+    ts-node: ^10.9.1
+    typescript: ^5.2.2
+    validator: ^13.15.22
   languageName: unknown
   linkType: soft
 
